@@ -1,0 +1,115 @@
+<html>
+<head>
+<title>Personal Details</title>
+
+<style>
+
+html{
+background-image: url("personal_details.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav{
+font-size: 250px;
+font-family: KGShePersisted;
+margin-left: 23%;
+margin-top: 370px;
+color: black;
+}
+
+#Personal_Details{
+font-size: 170px;
+font-family: KGShePersisted;
+margin-left: 12.5%;
+margin-top: 650px;
+width: 39.4%;
+text-align: center;
+animation-name: fadein;
+animation-duration: 5s;
+}
+
+#Personal_Details_contents{
+font-size: 130px;
+font-family: KGShePersisted;
+margin-left: 17%;
+margin-top: 200px;
+animation-name: fadein;
+animation-duration: 5s;
+
+}
+
+@font-face {
+    font-family: KGShePersisted;
+    src: url(KGShePersisted.ttf);
+}
+
+nav a:link {
+    color: black;
+}
+
+/* visited link */
+nav a:visited {
+    color: black;
+}
+
+/* mouse over link */
+nav a:hover {
+    color: black;
+	animation:fadeOut;
+	animation-duration: 0.5s;
+	animation-fill-mode: both;
+}
+
+@keyframes fadeOut {
+   0% {opacity: 1;}
+   100% {opacity: 0.3;} 
+} 
+
+@keyframes fadein {
+    from {
+        opacity:0;
+		
+    }
+    to {
+        opacity:1;
+		
+    }
+}
+
+/* selected link */
+nav a:active {
+    color: black;
+}
+
+nav a{
+margin: 50px;
+}
+
+
+
+</style>
+
+</head>
+
+<body>
+
+<div id="animation">
+
+<nav><a href="My_Home_page.html">HOME</a></nav>
+
+<div id="Personal_Details">Personal Details<hr></div>
+
+<div id="Personal_Details_contents"><ul><li><strong>Date of Birth:</strong> 14/11/1997</li>
+										<li><strong>Country of Birth:</strong> Greece</li>
+										<li><strong>Nationality:</strong> Greek</li>
+										<li><strong>Email address:</strong> johnkotsas@me.com</li>
+										<li><strong>Telephone Number:</strong> +30 6982289241</li>
+									</ul>
+</div>
+
+</div>
+
+</body>
+</html>
+
